@@ -1,0 +1,30 @@
+# --- runtime artifacts created by the tools themselves ---
+offline-research/local-server/captures/
+offline-research/local-server/active-run.json
+offline-research/local-server/client.pid
+offline-research/local-server/launch-*.log
+offline-research/local-server/*.log
+offline-research/local-server/_tmp*
+__pycache__/
+*.pyc
+
+# --- NEVER commit these (game binaries / extracted game data / dumps) ---
+Europa_Client.exe
+*.dll
+*.exe
+*.dat
+*.vfs
+*.sfc
+*.bnk
+*.wem
+*.qss
+*.gfx
+UserData/
+Cache/
+Steam/
+*.bin
+!offline-research/local-server/fixtures/experimental-character-world-fields.bin
+
+# --- OS noise ---
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,8 @@
+# Only what the staged runtime chain actually imports.
+#   frida    - transport bridge + injection orchestration (instrument_client.py, run_js.py)
+#   capstone - x86 disassembly in the analysis helpers (disassemble.py etc.)
+#   pillow   - screenshot handling in the capture helpers (capture_window.py etc.)
+# Client is x64, so use a 64-bit Python matching the target.
+frida==17.24.3
+capstone==5.0.9
+pillow>=10.0
